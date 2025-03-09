@@ -5,9 +5,9 @@
     # Nixpkgs
     nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
 
-    # Home manager
+    # Home manager - use direct git URL instead of GitHub API
     home-manager = {
-      url = "github:nix-community/home-manager/release-23.11";
+      url = "git+https://github.com/nix-community/home-manager.git?ref=release-23.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

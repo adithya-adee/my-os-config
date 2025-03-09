@@ -68,8 +68,6 @@
       syntaxHighlighting.enable = true;
     };
   };
-  # add user defalt shell as zsh
-  users.defaultUserShell = pkgs.zsh;
   
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";
