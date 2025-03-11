@@ -1,9 +1,0 @@
-# to load the dconf backup files
-
-dconf load /org/gnome < gnome.backup
-dconf load / < full.backup
-
-# to add to configuration or update
-
-dconf dump /org/gnome > gnome.backup
-dconf dump / > full.backup
