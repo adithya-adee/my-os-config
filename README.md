@@ -1,1 +1,1 @@
-This is my nixos configuration file for my Asus Vivobook (intel evo 12500H) 
+These are my operating system configuration files for the Linux system on my Asus Vivobook (Intel EVO 12500H).
