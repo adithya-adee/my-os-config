@@ -1,17 +1,14 @@
-[ca/desrt/dconf-editor]
-saved-pathbar-path='/org/gnome/desktop/background/color-shading-type'
-saved-view='/org/gnome/desktop/background/'
-window-height=500
-window-is-maximized=false
-window-width=540
+[org/freedesktop/tracker/miner/files]
+index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home']
 
 [org/gnome/Console]
-font-scale=1.9000000000000008
+font-scale=1.9000000000000006
 last-window-maximised=true
-last-window-size=(1052, 696)
+last-window-size=(652, 480)
 
 [org/gnome/Extensions]
-window-height=1008
+window-height=1032
+window-width=948
 
 [org/gnome/builder]
 window-maximized=true
@@ -166,7 +163,7 @@ overwrite-braces=true
 tab-width=2
 
 [org/gnome/control-center]
-last-panel='wifi'
+last-panel='keyboard'
 window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
@@ -355,21 +352,26 @@ night-light-enabled=true
 night-light-schedule-automatic=false
 
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
 rotate-video-lock-static=['<Super>o', 'XF86RotationLockToggle']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Shift><Control>grave'
-command='gnome-terminal'
+command='$SHELL'
 name='terminal'
 
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding=''
+command='code .'
+name='vs-code'
+
 [org/gnome/shell]
-app-picker-layout=[{'2094cccf-2a46-4f76-8f34-8dfbafd1633c': <{'position': <0>}>, 'brave-browser.desktop': <{'position': <1>}>, 'firefox.desktop': <{'position': <2>}>, 'startcenter.desktop': <{'position': <3>}>, 'base.desktop': <{'position': <4>}>, 'org.gnome.Contacts.desktop': <{'position': <5>}>, 'org.gnome.Weather.desktop': <{'position': <6>}>, 'org.gnome.clocks.desktop': <{'position': <7>}>, 'org.gnome.Maps.desktop': <{'position': <8>}>, 'org.gnome.Builder.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'org.gnome.Totem.desktop': <{'position': <11>}>, 'org.gnome.Calculator.desktop': <{'position': <12>}>, 'simple-scan.desktop': <{'position': <13>}>, 'org.gnome.Settings.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'yelp.desktop': <{'position': <16>}>, 'kitty.desktop': <{'position': <17>}>, 'edcc12cd-afc7-4812-a4bb-0f4d9cf3d9cb': <{'position': <18>}>, 'b8da649a-e70a-46c2-9ae4-7981a87ab727': <{'position': <19>}>}, {'org.gnome.TextEditor.desktop': <{'position': <0>}>, 'org.gnome.Tour.desktop': <{'position': <1>}>, 'nvim.desktop': <{'position': <2>}>, 'rog-control-center.desktop': <{'position': <3>}>, 'xterm.desktop': <{'position': <4>}>, 'calc.desktop': <{'position': <5>}>, 'draw.desktop': <{'position': <6>}>, 'impress.desktop': <{'position': <7>}>, 'math.desktop': <{'position': <8>}>, 'writer.desktop': <{'position': <9>}>, 'org.gnome.Geary.desktop': <{'position': <10>}>, 'org.gnome.Epiphany.desktop': <{'position': <11>}>, 'org.gnome.Music.desktop': <{'position': <12>}>}]
+app-picker-layout=[{'2094cccf-2a46-4f76-8f34-8dfbafd1633c': <{'position': <0>}>, 'brave-browser.desktop': <{'position': <1>}>, 'firefox.desktop': <{'position': <2>}>, 'startcenter.desktop': <{'position': <3>}>, 'base.desktop': <{'position': <4>}>, 'org.gnome.Contacts.desktop': <{'position': <5>}>, 'org.gnome.Weather.desktop': <{'position': <6>}>, 'org.gnome.clocks.desktop': <{'position': <7>}>, 'org.gnome.Maps.desktop': <{'position': <8>}>, 'org.gnome.Builder.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'org.gnome.Totem.desktop': <{'position': <11>}>, 'org.gnome.Calculator.desktop': <{'position': <12>}>, 'simple-scan.desktop': <{'position': <13>}>, 'org.gnome.Settings.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'yelp.desktop': <{'position': <16>}>, 'kitty.desktop': <{'position': <17>}>, 'edcc12cd-afc7-4812-a4bb-0f4d9cf3d9cb': <{'position': <18>}>, 'b8da649a-e70a-46c2-9ae4-7981a87ab727': <{'position': <19>}>}, {'org.gnome.TextEditor.desktop': <{'position': <0>}>, 'org.gnome.Tour.desktop': <{'position': <1>}>, 'nvim.desktop': <{'position': <2>}>, 'rog-control-center.desktop': <{'position': <3>}>, 'xterm.desktop': <{'position': <4>}>, 'calc.desktop': <{'position': <5>}>, 'draw.desktop': <{'position': <6>}>, 'impress.desktop': <{'position': <7>}>, 'math.desktop': <{'position': <8>}>, 'writer.desktop': <{'position': <9>}>, 'org.gnome.Geary.desktop': <{'position': <10>}>, 'org.gnome.Epiphany.desktop': <{'position': <11>}>, 'org.gnome.Music.desktop': <{'position': <12>}>, 'cups.desktop': <{'position': <13>}>, 'vim.desktop': <{'position': <14>}>}]
 command-history=['r', 'reboot']
-disabled-extensions=['status-icons@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com', 'paperwm@paperwm.github.com']
-enabled-extensions=['workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'burn-my-windows@schneegans.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'wintile@nowsci.com', 'caffeine@patapon.info']
+disabled-extensions=['status-icons@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com', 'paperwm@paperwm.github.com', 'forge@jmmaranan.com', 'gTile@vibou']
+enabled-extensions=['workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'burn-my-windows@schneegans.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'wintile@nowsci.com', 'caffeine@patapon.info', 'viewsplit@model-map.github.io', 'ShellTile@emasab.it']
 favorite-apps=['org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'org.gnome.Console.desktop', 'obsidian.desktop', 'youtube-music.desktop']
-last-selected-power-profile='performance'
+last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='47.2'
 
 [org/gnome/shell/extensions/blur-my-shell]
@@ -413,9 +415,9 @@ brightness=0.59999999999999998
 sigma=30
 
 [org/gnome/shell/extensions/burn-my-windows]
-active-profile='/home/adithya/.config/burn-my-windows/profiles/1741343661874195.conf'
+active-profile='/home/adithya/.config/burn-my-windows/profiles/1741788157641631.conf'
 last-extension-version=45
-prefs-open-count=1
+prefs-open-count=2
 
 [org/gnome/shell/extensions/caffeine]
 indicator-position-max=1
@@ -453,8 +455,38 @@ status-icon-padding=-1
 tray-padding=-1
 window-preview-title-position='TOP'
 
+[org/gnome/shell/extensions/forge]
+css-last-update=uint32 37
+
+[org/gnome/shell/extensions/gtile]
+global-auto-tiling=false
+
 [org/gnome/shell/extensions/just-perfection]
+accessibility-menu=true
+background-menu=true
+controls-manager-spacing-size=0
+dash=true
+dash-icon-size=0
+double-super-to-appgrid=true
+max-displayed-search-results=0
+osd=true
+panel=true
+panel-in-overview=true
+ripple-box=true
+search=true
+show-apps-button=true
+startup-status=1
 support-notifier-showed-version=34
+support-notifier-type=0
+theme=false
+window-demands-attention-focus=false
+window-picker-icon=true
+window-preview-caption=true
+window-preview-close-button=true
+workspace=true
+workspace-background-corner-size=0
+workspace-popup=true
+workspaces-in-app-grid=true
 
 [org/gnome/shell/extensions/paperwm]
 last-used-display-server='Wayland'
@@ -489,12 +521,8 @@ toggle-message-tray=['<Super>v', '<Super>m']
 [org/gnome/shell/world-clocks]
 locations=@av []
 
-[org/gtk/gtk4/settings/color-chooser]
-custom-colors=[(0.0, 0.0, 0.0, 0.0)]
-selected-color=(true, 0.0, 0.0, 0.0, 0.0)
-
 [org/gtk/gtk4/settings/file-chooser]
-show-hidden=false
+show-hidden=true
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
@@ -507,5 +535,5 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(345, 65)
+window-position=(344, 81)
 window-size=(1231, 902)
