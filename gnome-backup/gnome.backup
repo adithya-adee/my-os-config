@@ -1,174 +1,50 @@
 [Console]
-font-scale=1.9000000000000006
+custom-font='JetBrainsMono Nerd Font Mono 10'
+font-scale=1.8000000000000007
 last-window-maximised=true
 last-window-size=(652, 480)
+theme='night'
+use-system-font=false
 
-[Extensions]
-window-height=1032
-window-width=948
-
-[builder]
+[Music]
 window-maximized=true
-window-size=(-1, -1)
 
-[builder/editor]
-style-scheme-name='Adwaita-dark'
-
-[builder/editor/language/automake]
-insert-spaces-instead-of-tabs=false
-insert-trailing-newline=true
-tab-width=8
-
-[builder/editor/language/blueprint]
-auto-indent=true
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=false
-overwrite-braces=true
-tab-width=2
-
-[builder/editor/language/c-sharp]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=false
-overwrite-braces=true
-spaces-style=['before-left-paren']
-tab-width=8
-
-[builder/editor/language/c]
-auto-indent=true
-indent-width=2
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-spaces-style=['before-left-paren']
-tab-width=8
-
-[builder/editor/language/chdr]
-auto-indent=true
-indent-width=2
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-spaces-style=['before-left-paren']
-tab-width=8
-
-[builder/editor/language/commonlisp]
-auto-indent=true
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-overwrite-braces=true
-right-margin-position=100
-tab-width=2
-
-[builder/editor/language/cpp]
-auto-indent=true
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=4
-
-[builder/editor/language/css]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=2
-
-[builder/editor/language/gradle]
-auto-indent=true
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-overwrite-braces=true
-tab-width=2
-
-[builder/editor/language/html]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=2
-
-[builder/editor/language/java]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-overwrite-braces=true
-tab-width=2
-
-[builder/editor/language/js]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=2
-
-[builder/editor/language/makefile]
-insert-spaces-instead-of-tabs=false
-insert-trailing-newline=true
-tab-width=8
-
-[builder/editor/language/markdown]
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-tab-width=4
-trim-trailing-whitespace=false
-
-[builder/editor/language/python]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=4
-
-[builder/editor/language/python3]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=4
-
-[builder/editor/language/ruby]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=2
-
-[builder/editor/language/rust]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-right-margin-position=100
-tab-width=4
-
-[builder/editor/language/vala]
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=4
-
-[builder/editor/language/xml]
-auto-indent=true
-insert-matching-brace=true
-insert-spaces-instead-of-tabs=true
-insert-trailing-newline=true
-overwrite-braces=true
-tab-width=2
+[baobab/ui]
+is-maximized=false
+window-size=(960, 600)
 
 [control-center]
 last-panel='keyboard'
 window-state=(980, 640, true)
 
-[desktop/app-folders]
-folder-children=['Utilities', 'YaST', 'Pardus', 'edcc12cd-afc7-4812-a4bb-0f4d9cf3d9cb', 'b8da649a-e70a-46c2-9ae4-7981a87ab727', '2094cccf-2a46-4f76-8f34-8dfbafd1633c']
+[desktop/a11y/applications]
+screen-magnifier-enabled=false
+screen-reader-enabled=true
 
-[desktop/app-folders/folders/2094cccf-2a46-4f76-8f34-8dfbafd1633c]
-apps=['cursor.desktop', 'code.desktop', 'discord.desktop', 'org.gnome.Evince.desktop']
-name='Accessories'
+[desktop/a11y/interface]
+high-contrast=false
+show-status-shapes=false
+
+[desktop/a11y/keyboard]
+bouncekeys-enable=false
+mousekeys-enable=false
+togglekeys-enable=true
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus', 'a8ea9718-4166-4e65-8581-2c50dbbaee45', 'c88f0a54-b7a1-45f6-af80-70dff1d56631', '00267f2a-a555-45c8-86a5-f6387fcad4a9', '8d64c96c-d719-484e-af1f-300481cffd1e', '8d342366-674b-48ce-bb32-0d35a8dbb855']
+
+[desktop/app-folders/folders/00267f2a-a555-45c8-86a5-f6387fcad4a9]
+apps=['qvidcap.desktop', 'qv4l2.desktop', 'org.gnome.Tour.desktop', 'yelp.desktop']
+name='Sound & Video'
+
+[desktop/app-folders/folders/8d342366-674b-48ce-bb32-0d35a8dbb855]
+apps=['libreoffice-base.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-math.desktop', 'libreoffice-impress.desktop', 'libreoffice-writer.desktop']
+name='Office'
+
+[desktop/app-folders/folders/8d64c96c-d719-484e-af1f-300481cffd1e]
+apps=['org.gnome.tweaks.desktop', 'org.gnome.Extensions.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'ca.desrt.dconf-editor.desktop', 'org.gnome.Console.desktop']
+name='Gnome Tools'
+translate=false
 
 [desktop/app-folders/folders/Pardus]
 categories=['X-Pardus-Apps']
@@ -176,9 +52,9 @@ name='X-Pardus-Apps.directory'
 translate=true
 
 [desktop/app-folders/folders/Utilities]
-apps=['org.freedesktop.GnomeAbrt.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'org.gnome.Devhelp.desktop', 'org.gnome.Extensions.desktop']
+apps=['org.freedesktop.GnomeAbrt.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Loupe.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Usage.desktop']
 categories=['X-GNOME-Utilities']
-excluded-apps=['org.gnome.Evince.desktop']
+excluded-apps=['org.gnome.tweaks.desktop', 'ca.desrt.dconf-editor.desktop', 'org.gnome.Console.desktop', 'org.gnome.Evince.desktop']
 name='X-GNOME-Utilities.directory'
 translate=true
 
@@ -187,23 +63,23 @@ categories=['X-SuSE-YaST']
 name='suse-yast.directory'
 translate=true
 
-[desktop/app-folders/folders/b8da649a-e70a-46c2-9ae4-7981a87ab727]
-apps=['org.gnome.SystemMonitor.desktop', 'ca.desrt.dconf-editor.desktop', 'nixos-manual.desktop']
-name='System Help'
+[desktop/app-folders/folders/a8ea9718-4166-4e65-8581-2c50dbbaee45]
+apps=['bvnc.desktop', 'avahi-discover.desktop', 'bssh.desktop']
+name='Avahi'
 translate=false
 
-[desktop/app-folders/folders/edcc12cd-afc7-4812-a4bb-0f4d9cf3d9cb]
-apps=['footclient.desktop', 'foot-server.desktop', 'foot.desktop']
-name='Foot'
+[desktop/app-folders/folders/c88f0a54-b7a1-45f6-af80-70dff1d56631]
+apps=['org.gnome.Weather.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Maps.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Snapshot.desktop', 'simple-scan.desktop', 'org.gnome.SystemMonitor.desktop']
+name='Tools'
 translate=false
 
 [desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///run/current-system/sw/share/backgrounds/gnome/adwaita-l.jxl'
-picture-uri-dark='file:///run/current-system/sw/share/backgrounds/gnome/adwaita-d.jxl'
-primary-color='#3071AE'
-secondary-color='#000000'
+picture-uri='file:///home/adithya/.local/share/backgrounds/2025-03-15-03-24-07-ign_astronaut.png'
+picture-uri-dark='file:///home/adithya/.local/share/backgrounds/2025-03-15-03-24-07-ign_astronaut.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
 
 [desktop/input-sources]
 sources=[('xkb', 'us')]
@@ -212,11 +88,12 @@ xkb-options=['terminate:ctrl_alt_bksp']
 [desktop/interface]
 accent-color='blue'
 color-scheme='prefer-dark'
+cursor-size=24
 enable-animations=true
-show-battery-percentage=true
+toolkit-accessibility=true
 
 [desktop/notifications]
-application-children=['org-gnome-console', 'gnome-power-panel', 'org-gnome-characters', 'org-gnome-nautilus', 'discord', 'org-gnome-extensions']
+application-children=['org-gnome-software', 'org-pulseaudio-pavucontrol', 'org-gnome-console', 'gnome-power-panel', 'org-gnome-nautilus', 'discord']
 
 [desktop/notifications/application/discord]
 application-id='discord.desktop'
@@ -224,17 +101,17 @@ application-id='discord.desktop'
 [desktop/notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
 
-[desktop/notifications/application/org-gnome-characters]
-application-id='org.gnome.Characters.desktop'
-
 [desktop/notifications/application/org-gnome-console]
 application-id='org.gnome.Console.desktop'
 
-[desktop/notifications/application/org-gnome-extensions]
-application-id='org.gnome.Extensions.desktop'
-
 [desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[desktop/notifications/application/org-pulseaudio-pavucontrol]
+application-id='org.pulseaudio.pavucontrol.desktop'
 
 [desktop/peripherals/stylus/default-256c:006f]
 button-action='default'
@@ -243,90 +120,46 @@ pressure-curve=[0, 0, 100, 100]
 secondary-button-action='right'
 
 [desktop/peripherals/tablets/256c:006f]
-area=[-0.1428819615393877, -0.1626736968755722, -0.12268518656492233, -0.14768515527248383]
-keep-aspect=false
+area=[-0.14210070110857487, -0.16137155890464783, -0.13086419180035591, -0.15308639407157898]
+keep-aspect=true
 
 [desktop/peripherals/touchpad]
-send-events='enabled'
 two-finger-scrolling-enabled=true
 
 [desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///run/current-system/sw/share/backgrounds/gnome/adwaita-l.jxl'
-primary-color='#3071AE'
-secondary-color='#000000'
+picture-uri='file:///home/adithya/.local/share/backgrounds/2025-03-15-03-24-07-ign_astronaut.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
 
 [desktop/search-providers]
 sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop']
 
-[desktop/sound]
-event-sounds=true
-theme-name='__custom'
+[desktop/wm/preferences]
+visual-bell=false
 
-[desktop/wm/keybindings]
-maximize=['<Control><Shift><Super>Up']
-move-to-monitor-down=['<Super><Shift>Down']
-move-to-monitor-left=['<Super><Shift>Left']
-move-to-monitor-right=['<Super><Shift>Right']
-move-to-monitor-up=['<Super><Shift>Up']
-move-to-workspace-down=['<Control><Shift><Alt>Down']
-move-to-workspace-left=['<Super><Shift>Page_Up', '<Super><Shift><Alt>Left', '<Control><Shift><Alt>Left']
-move-to-workspace-right=['<Super><Shift>Page_Down', '<Super><Shift><Alt>Right', '<Control><Shift><Alt>Right']
-move-to-workspace-up=['<Control><Shift><Alt>Up']
-switch-applications=['<Super>Tab', '<Alt>Tab']
-switch-applications-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
-switch-group=['<Super>Above_Tab', '<Alt>Above_Tab']
-switch-group-backward=['<Shift><Super>Above_Tab', '<Shift><Alt>Above_Tab']
-switch-panels=['<Control><Alt>Tab']
-switch-panels-backward=['<Shift><Control><Alt>Tab']
-switch-to-workspace-1=['<Super>Home']
-switch-to-workspace-last=['<Super>End']
-switch-to-workspace-left=['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left']
-switch-to-workspace-right=['<Super>Page_Down', '<Super><Alt>Right', '<Control><Alt>Right']
-unmaximize=['<Control><Shift><Super>Down', '<Alt>F5']
+[epiphany]
+ask-for-default=false
+
+[epiphany/state]
+is-maximized=false
+window-size=(1024, 768)
 
 [evolution-data-server]
 migrated=true
 
-[file-roller/dialogs/extract]
-height=800
-recreate-folders=true
-skip-newer=false
-width=1000
+[gnome-system-monitor]
+current-tab='processes'
+maximized=true
+show-dependencies=false
+show-whose-processes='user'
+window-height=720
+window-width=800
 
-[file-roller/file-selector]
-show-hidden=false
-sidebar-size=300
-sort-method='name'
-sort-type='ascending'
-window-size=(-1, -1)
-
-[file-roller/listing]
-list-mode='as-folder'
-name-column-width=65
-show-path=false
-sort-method='name'
-sort-type='ascending'
-
-[file-roller/ui]
-sidebar-width=200
-window-height=480
-window-width=600
-
-[mutter]
-attach-modal-dialogs=false
-dynamic-workspaces=true
-edge-tiling=false
-workspaces-only-on-primary=false
-
-[mutter/keybindings]
-cancel-input-capture=['<Super><Shift>Escape']
-toggle-tiled-left=['<Control><Shift><Super>Left']
-toggle-tiled-right=['<Control><Shift><Super>Right']
-
-[mutter/wayland/keybindings]
-restore-shortcuts=['<Super>Escape']
+[gnome-system-monitor/proctree]
+col-26-visible=false
+col-26-width=0
 
 [nautilus/preferences]
 default-folder-viewer='icon-view'
@@ -338,41 +171,63 @@ initial-size=(890, 550)
 initial-size-file-chooser=(890, 550)
 maximized=true
 
-[portal/filechooser/com.google.Chrome]
-last-folder-path='/home/adithya/Documents'
+[portal/filechooser/cursor-cursor]
+last-folder-path='/home/adithya/.config/nvim'
 
-[portal/filechooser/cursor]
-last-folder-path='/home/adithya/Glitchy Moon/Github Repo/nix-config'
+[portal/filechooser/google-chrome]
+last-folder-path='/home/adithya/Downloads'
+
+[portal/filechooser/obsidian]
+last-folder-path='/home/adithya/PersonalWiki'
+
+[portal/filechooser/org.gnome.Settings]
+last-folder-path='/home/adithya/Downloads'
 
 [settings-daemon/plugins/color]
-night-light-enabled=true
 night-light-schedule-automatic=false
 
 [settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
-rotate-video-lock-static=['<Super>o', 'XF86RotationLockToggle']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
 
 [settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Shift><Control>grave'
-command='$SHELL'
-name='terminal'
+command='kitty'
+name='kitty'
 
 [settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-binding=''
+binding='<Shift><Control>backslash'
+command='cursor'
+name='cursor'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Control><Alt>c'
+command='google-chrome'
+name='chrome'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Control><Alt>v'
 command='code .'
-name='vs-code'
+name='vscode'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='<Shift><Alt>BackSpace'
+command='obsidian'
+name='obsidian'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+binding='<Shift><Control>1'
+command='discord'
+name='discord'
 
 [shell]
-app-picker-layout=[{'2094cccf-2a46-4f76-8f34-8dfbafd1633c': <{'position': <0>}>, 'brave-browser.desktop': <{'position': <1>}>, 'firefox.desktop': <{'position': <2>}>, 'startcenter.desktop': <{'position': <3>}>, 'base.desktop': <{'position': <4>}>, 'org.gnome.Contacts.desktop': <{'position': <5>}>, 'org.gnome.Weather.desktop': <{'position': <6>}>, 'org.gnome.clocks.desktop': <{'position': <7>}>, 'org.gnome.Maps.desktop': <{'position': <8>}>, 'org.gnome.Builder.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'org.gnome.Totem.desktop': <{'position': <11>}>, 'org.gnome.Calculator.desktop': <{'position': <12>}>, 'simple-scan.desktop': <{'position': <13>}>, 'org.gnome.Settings.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'yelp.desktop': <{'position': <16>}>, 'kitty.desktop': <{'position': <17>}>, 'edcc12cd-afc7-4812-a4bb-0f4d9cf3d9cb': <{'position': <18>}>, 'b8da649a-e70a-46c2-9ae4-7981a87ab727': <{'position': <19>}>}, {'org.gnome.TextEditor.desktop': <{'position': <0>}>, 'org.gnome.Tour.desktop': <{'position': <1>}>, 'nvim.desktop': <{'position': <2>}>, 'rog-control-center.desktop': <{'position': <3>}>, 'xterm.desktop': <{'position': <4>}>, 'calc.desktop': <{'position': <5>}>, 'draw.desktop': <{'position': <6>}>, 'impress.desktop': <{'position': <7>}>, 'math.desktop': <{'position': <8>}>, 'writer.desktop': <{'position': <9>}>, 'org.gnome.Geary.desktop': <{'position': <10>}>, 'org.gnome.Epiphany.desktop': <{'position': <11>}>, 'org.gnome.Music.desktop': <{'position': <12>}>, 'cups.desktop': <{'position': <13>}>, 'vim.desktop': <{'position': <14>}>}]
-command-history=['r', 'reboot']
-disabled-extensions=['status-icons@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com', 'paperwm@paperwm.github.com', 'forge@jmmaranan.com', 'gTile@vibou']
-enabled-extensions=['workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'burn-my-windows@schneegans.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'wintile@nowsci.com', 'caffeine@patapon.info', 'viewsplit@model-map.github.io', 'ShellTile@emasab.it']
-favorite-apps=['org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'org.gnome.Console.desktop', 'obsidian.desktop', 'youtube-music.desktop']
-last-selected-power-profile='power-saver'
-welcome-dialog-last-shown-version='47.2'
+app-picker-layout=[{'8d64c96c-d719-484e-af1f-300481cffd1e': <{'position': <0>}>, '8d342366-674b-48ce-bb32-0d35a8dbb855': <{'position': <1>}>, 'nvim.desktop': <{'position': <2>}>, 'vim.desktop': <{'position': <3>}>, 'org.gnome.Evince.desktop': <{'position': <4>}>, 'obsidian.desktop': <{'position': <5>}>, 'code.desktop': <{'position': <6>}>, 'discord.desktop': <{'position': <7>}>, 'cursor-cursor.desktop': <{'position': <8>}>, 'GitKraken.desktop': <{'position': <9>}>, 'kitty.desktop': <{'position': <10>}>, 'org.gnome.Settings.desktop': <{'position': <11>}>, 'htop.desktop': <{'position': <12>}>}, {'a8ea9718-4166-4e65-8581-2c50dbbaee45': <{'position': <0>}>, '00267f2a-a555-45c8-86a5-f6387fcad4a9': <{'position': <1>}>, 'Utilities': <{'position': <2>}>, 'c88f0a54-b7a1-45f6-af80-70dff1d56631': <{'position': <3>}>, 'gnome-alsamixer.desktop': <{'position': <4>}>, 'org.rncbc.qjackctl.desktop': <{'position': <5>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <6>}>, 'electron34.desktop': <{'position': <7>}>, 'org.gnome.Software.desktop': <{'position': <8>}>, 'org.gnome.Music.desktop': <{'position': <9>}>, 'org.gnome.Calendar.desktop': <{'position': <10>}>, 'org.gnome.Epiphany.desktop': <{'position': <11>}>, 'org.gnome.TextEditor.desktop': <{'position': <12>}>}]
+disabled-extensions=['status-icons@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'just-perfection-desktop@just-perfection']
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'org.gnome.Console.desktop', 'cursor-cursor.desktop', 'obsidian.desktop', 'discord.desktop', 'code.desktop', 'org.gnome.Evince.desktop']
+welcome-dialog-last-shown-version='47.5'
 
 [shell/extensions/blur-my-shell]
-pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_41534386084687'>, 'params': <{'brightness': <0.59999999999999998>, 'unscaled_radius': <30>}>}>, <{'type': <'color'>, 'id': <'effect_16288627841197'>, 'params': <{'color': <(0.0, 0.0, 0.0, 0.0)>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}}
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}, 'pipeline_01688703223792': {'name': <'New pipeline'>, 'effects': <@av []>}}
 settings-version=2
 
 [shell/extensions/blur-my-shell/appfolder]
@@ -385,23 +240,25 @@ pipeline='pipeline_default'
 [shell/extensions/blur-my-shell/dash-to-dock]
 blur=true
 brightness=0.59999999999999998
+override-background=true
 pipeline='pipeline_default_rounded'
 sigma=30
 static-blur=true
-style-dash-to-dock=0
+style-dash-to-dock=2
+unblur-in-overview=false
 
 [shell/extensions/blur-my-shell/lockscreen]
 pipeline='pipeline_default'
 
 [shell/extensions/blur-my-shell/overview]
 pipeline='pipeline_default'
+style-components=2
 
 [shell/extensions/blur-my-shell/panel]
 blur=false
-brightness=0.0
-force-light-text=true
+brightness=0.59999999999999998
 pipeline='pipeline_default'
-sigma=100
+sigma=30
 static-blur=true
 
 [shell/extensions/blur-my-shell/screenshot]
@@ -411,109 +268,13 @@ pipeline='pipeline_default'
 brightness=0.59999999999999998
 sigma=30
 
-[shell/extensions/burn-my-windows]
-active-profile='/home/adithya/.config/burn-my-windows/profiles/1741788157641631.conf'
-last-extension-version=45
-prefs-open-count=2
-
-[shell/extensions/caffeine]
-indicator-position-max=1
-
-[shell/extensions/dash-to-dock]
-background-opacity=0.80000000000000004
-custom-background-color=false
-custom-theme-shrink=true
-dash-max-icon-size=48
-dock-position='BOTTOM'
-extend-height=false
-height-fraction=0.90000000000000002
-isolate-workspaces=false
-multi-monitor=false
-preferred-monitor=-2
-preferred-monitor-by-connector='eDP-1'
-preview-size-scale=0.10000000000000001
-running-indicator-style='DOTS'
-scroll-action='switch-workspace'
-
-[shell/extensions/dash-to-panel]
-animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
-appicon-margin=8
-appicon-padding=4
-available-monitors=[0]
-dot-position='BOTTOM'
-hotkeys-overlay-combo='TEMPORARILY'
-leftbox-padding=-1
-panel-anchors='{"0":"MIDDLE"}'
-panel-lengths='{"0":100}'
-panel-positions='{"0":"TOP"}'
-panel-sizes='{"0":48}'
-primary-monitor=0
-status-icon-padding=-1
-tray-padding=-1
-window-preview-title-position='TOP'
-
-[shell/extensions/forge]
-css-last-update=uint32 37
-
-[shell/extensions/gtile]
-global-auto-tiling=false
-
 [shell/extensions/just-perfection]
-accessibility-menu=true
-background-menu=true
-controls-manager-spacing-size=0
-dash=true
-dash-icon-size=0
-double-super-to-appgrid=true
-max-displayed-search-results=0
-osd=true
-panel=true
-panel-in-overview=true
-ripple-box=true
-search=true
-show-apps-button=true
-startup-status=1
 support-notifier-showed-version=34
-support-notifier-type=0
-theme=false
-window-demands-attention-focus=false
-window-picker-icon=true
-window-preview-caption=true
-window-preview-close-button=true
-workspace=true
-workspace-background-corner-size=0
-workspace-popup=true
-workspaces-in-app-grid=true
-
-[shell/extensions/paperwm]
-last-used-display-server='Wayland'
-open-window-position=0
-restore-attach-modal-dialogs=''
-restore-edge-tiling=''
-restore-keybinds='{}'
-restore-workspaces-only-on-primary=''
-
-[shell/extensions/paperwm/workspaces]
-list=['143da156-0005-4bc4-a659-7c7e0fb7562a', '367a2cc4-3852-4e34-aa77-df522a8e70f8']
-
-[shell/extensions/paperwm/workspaces/143da156-0005-4bc4-a659-7c7e0fb7562a]
-index=0
-
-[shell/extensions/paperwm/workspaces/367a2cc4-3852-4e34-aa77-df522a8e70f8]
-index=1
-
-[shell/extensions/wintile]
-debug=false
-delay=200
-distance=20
-gap=0
-ultrawide-only=false
-
-[shell/keybindings]
-focus-active-notification=['<Super>n']
-shift-overview-down=['<Super><Alt>Down']
-shift-overview-up=['<Super><Alt>Up']
-toggle-message-tray=['<Super>v', '<Super>m']
 
 [shell/world-clocks]
 locations=@av []
+
+[software]
+check-timestamp=int64 1742018515
+first-run=false
+flatpak-purge-timestamp=int64 1742022053
