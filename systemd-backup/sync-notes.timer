@@ -1,0 +1,12 @@
+[Unit]
+Description=Run sync-notes every 10 minutes
+
+[Timer]
+# Runs every 5 minutes while logged in
+OnCalendar=*:0/10
+# If laptop was off and missed a run, execute immediately on next login
+Persistent=true
+Unit=sync-notes.service
+
+[Install]
+WantedBy=timers.target

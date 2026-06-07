@@ -1,0 +1,12 @@
+[Unit]
+Description=Export rnote → PDF, mirror to Notes.bak, sync notes (encrypted) and library to Google Drive
+After=network-online.target
+
+[Service]
+Type=oneshot
+Environment=PATH=/home/glitchy_moon/.nvm/versions/node/v24.11.1/bin:/home/glitchy_moon/.local/share/pnpm/bin:/usr/bin:/usr/local/bin
+ExecStart=/home/glitchy_moon/.local/share/pnpm/bin/sync-notes
+# 0 = success, 1 = partial export failures, 2 = config / pipeline error (acceptable in auto-runs)
+SuccessExitStatus=0 1 2
+StandardOutput=journal
+StandardError=journal
