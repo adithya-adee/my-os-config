@@ -1,19 +1,15 @@
 # pnpm global packages
-# Install all: xargs -a pnpm-globals.txt pnpm add -g
+# Install all: grep -v '^#' pnpm-globals.txt | grep -v '^$' | awk '{print $1}' | xargs pnpm add -g
 # Update all:  pnpm update -g
 
 # ── AI / LLM CLIs ──────────────────────────────────────────────
 @anthropic-ai/claude-code       # Claude Code (Anthropic's official CLI)
-@google/gemini-cli              # Gemini CLI
-@qwen-code/qwen-code            # Qwen Code (open-source AI coding CLI)
+@google/gemini-cli              # Gemini CLI (Google)
 @openai/codex                   # OpenAI Codex CLI (open-source)
 
 # ── ZK / Crypto tooling ────────────────────────────────────────
 snarkjs                         # Groth16/PLONK proof system (circom workflow)
 @umbra-privacy/ceremony         # Umbra MPC ceremony CLI
-
-# ── Solana / Web3 ──────────────────────────────────────────────
-@solana/web3.js                 # Solana JS SDK (useful as a global for scripts)
 
 # ── Frontend / Fullstack ───────────────────────────────────────
 vercel                          # Vercel deploy CLI
