@@ -153,15 +153,41 @@ else
   echo "  spicetify not installed — skipping"
 fi
 
-# ---------- 14. Package lists (info only) ----------
-step "Package lists reference"
-echo "  Flatpak:  xargs -a $REPO/package-lists/flatpak-apps.txt -I{} flatpak install flathub {}"
-echo "  Cargo:    see $REPO/package-lists/cargo-installs.txt (reinstall manually)"
-echo "  npm globals: xargs -a $REPO/package-lists/npm-globals.txt npm install -g"
+# ---------- 14. pnpm globals ----------
+step "pnpm global packages"
+if command -v pnpm &>/dev/null; then
+  grep -v '^#' "$REPO/package-lists/pnpm-globals.txt" | grep -v '^$' | awk '{print $1}' | \
+    xargs pnpm add -g
+  ok "pnpm globals installed"
+else
+  echo "  pnpm not found — install via: npm install -g pnpm, then re-run this step"
+fi
+
+# ---------- 15. Flatpak apps ----------
+step "Flatpak apps"
+if command -v flatpak &>/dev/null; then
+  xargs -a "$REPO/package-lists/flatpak-apps.txt" -I{} flatpak install -y flathub {}
+  ok "Flatpak apps installed"
+else
+  echo "  flatpak not installed — skip"
+fi
+
+# ---------- 16. Cargo globals ----------
+step "Cargo globals (info)"
+echo "  See $REPO/package-lists/cargo-globals.txt for the curated list"
+echo "  Install: cargo install <package>"
+echo "  For avm (Anchor): cargo install avm && avm install latest && avm use latest"
+
+# ---------- 17. Manual installs ----------
+step "Manual installs"
+echo "  See $REPO/package-lists/manual-installs.md"
+echo "  On EndeavourOS — check AUR first: yay -S <package>"
 
 echo -e "\n${GREEN}${BOLD}Bootstrap complete!${NC}"
 echo "  Remaining manual steps:"
 echo "  - Fill COLOSSEUM_COPILOT_PAT in ~/.zshrc"
 echo "  - Fill WakaTime api_key in ~/.wakatime.cfg"
 echo "  - Run: rclone config reconnect google-drive:"
-echo "  - Reinstall oh-my-zsh + plugins (zsh-autosuggestions, zsh-syntax-highlighting, fzf-tab, pure)"
+echo "  - Install oh-my-zsh + plugins: zsh-autosuggestions, zsh-syntax-highlighting, fzf-tab, pure"
+echo "  - Install pnpm globals: grep -v '^#' package-lists/pnpm-globals.txt | awk '{print \$1}' | xargs pnpm add -g"
+echo "  - See package-lists/manual-installs.md for curl-based installs"
