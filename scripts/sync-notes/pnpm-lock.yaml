@@ -1,0 +1,16 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  sync-notes: 'link:'
+
+importers:
+
+  .:
+    dependencies:
+      sync-notes:
+        specifier: 'link:'
+        version: 'link:'

@@ -1,0 +1,3 @@
+#!/bin/sh
+exec "$HOME/.umbra/ceremony/runtime/bin/node" \
+     "$HOME/.umbra/ceremony/app/dist/index.js" "$@"

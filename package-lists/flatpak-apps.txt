@@ -1,0 +1,6 @@
+com.github.flxzt.rnote
+com.mongodb.Compass
+io.github.seadve.Kooha
+org.flathub.flatpak-external-data-checker
+org.strawberrymusicplayer.strawberry
+org.telegram.desktop

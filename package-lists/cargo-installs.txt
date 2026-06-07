@@ -1,0 +1,37 @@
+avm v1.0.2 (https://github.com/solana-foundation/anchor#d9caca25):
+    avm
+cargo-cache v0.8.3:
+    cargo-cache
+cargo-deb v2.12.1:
+    cargo-deb
+cargo-deny v0.18.3:
+    cargo-deny
+cargo-llvm-cov v0.8.4:
+    cargo-llvm-cov
+cargo-nextest v0.9.99:
+    cargo-nextest
+cargo-tarpaulin v0.35.1:
+    cargo-tarpaulin
+circom v2.2.3 (/home/glitchy_moon/.config/circom/circom):
+    circom
+claw-code v0.1.0:
+    claw-code-deprecated
+crab-clean v0.1.0 (/home/glitchy_moon/glitchy_moon/TEST/crab-clean):
+    crabclean
+honggfuzz v0.5.58:
+    cargo-hfuzz
+    cargo-honggfuzz
+mini-redis v0.4.1:
+    mini-redis-cli
+    mini-redis-server
+rustlings v6.4.0:
+    rustlings
+rusty-claude-cli v0.1.0 (/home/glitchy_moon/glitchy_moon/OSC/claw-code-parity/rust/crates/rusty-claude-cli):
+    claw
+sqlx-cli v0.8.6:
+    cargo-sqlx
+    sqlx
+tree-sitter-cli v0.25.6:
+    tree-sitter
+wasm-pack v0.14.0:
+    wasm-pack

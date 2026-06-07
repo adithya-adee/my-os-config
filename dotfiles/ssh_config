@@ -1,0 +1,13 @@
+# --- Personal GitHub Account (The Default Key) ---
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+  IdentitiesOnly yes
+
+# --- Company GitHub Account (The Custom Key) ---
+Host github-odpay
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_odpay
+  IdentitiesOnly yes

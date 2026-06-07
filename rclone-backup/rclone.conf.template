@@ -1,0 +1,17 @@
+# rclone config template — fill in real tokens via `rclone config` or manually
+# DO NOT commit real tokens here. Run `rclone config` to re-authenticate.
+
+[google-drive]
+type = drive
+scope = drive
+# Run: rclone config reconnect google-drive:
+token = {"access_token":"FILL_IN","token_type":"Bearer","refresh_token":"FILL_IN","expiry":"FILL_IN"}
+team_drive =
+
+[notes-crypt]
+type = crypt
+remote = google-drive:Notes-PDF
+filename_encryption = standard
+directory_name_encryption = true
+# Run: rclone config to re-enter password
+password = FILL_IN

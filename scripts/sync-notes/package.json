@@ -1,0 +1,12 @@
+{
+  "name": "sync-notes",
+  "version": "1.0.0",
+  "description": "Export rnote files to PDF and sync to Cryptomator vault",
+  "type": "module",
+  "bin": {
+    "sync-notes": "./index.js"
+  },
+  "dependencies": {
+    "sync-notes": "link:"
+  }
+}
