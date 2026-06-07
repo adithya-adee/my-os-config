@@ -1,0 +1,164 @@
+# Arch/AUR package list
+# Restore: paru -S --needed - < arch-packages.txt
+# (packages marked [AUR] are from AUR, all others are in official repos)
+#
+# On EndeavourOS: base + base-devel are installed by default.
+# Install paru first: https://github.com/Morganamilo/paru
+
+# ── Shell & Terminal ───────────────────────────────────────────
+zsh
+kitty
+tmux
+fzf
+eza
+bat
+lsd
+ripgrep
+ncdu
+htop
+fastfetch
+zoxide
+
+# ── Editors ────────────────────────────────────────────────────
+neovim
+vim
+cursor-bin                      # [AUR]
+
+# ── Fonts ──────────────────────────────────────────────────────
+ttf-jetbrains-mono-nerd
+ttf-fira-code
+ttf-hack-nerd
+noto-fonts
+noto-fonts-emoji
+ttf-liberation
+powerline-fonts
+
+# ── Development: core ──────────────────────────────────────────
+base-devel                      # gcc, g++, make, autoconf, automake, etc.
+git
+git-lfs
+cmake
+clang
+llvm
+mold
+ninja
+pkg-config
+luarocks
+pandoc
+pre-commit
+protobuf
+musl
+
+# ── Development: libs ──────────────────────────────────────────
+alsa-lib
+openssl
+sqlite
+libgit2
+vulkan-tools
+vulkan-icd-loader
+
+# ── Languages ──────────────────────────────────────────────────
+python
+python-pip
+python-pipx
+jdk-openjdk
+jdk17-openjdk
+maven
+
+# ── Containers / Virtualisation ────────────────────────────────
+docker
+docker-compose
+qemu-full
+
+# ── Database ───────────────────────────────────────────────────
+postgresql
+sqlite
+sqlitebrowser
+
+# ── Browser ────────────────────────────────────────────────────
+firefox
+google-chrome                   # [AUR]
+
+# ── GNOME desktop ──────────────────────────────────────────────
+gnome
+gnome-tweaks
+gnome-shell-extension-manager   # [AUR]
+xdg-user-dirs
+xdg-utils
+flatpak
+gparted
+
+# ── GUI Apps ───────────────────────────────────────────────────
+mpv
+vlc
+libreoffice-fresh
+remmina
+shotwell
+transmission-gtk
+seahorse
+
+# ── Productivity / Notes ───────────────────────────────────────
+rnote                           # [AUR]
+obsidian                        # [AUR]
+
+# ── Media ──────────────────────────────────────────────────────
+spotify                         # [AUR] — or use Flatpak
+strawberry
+
+# ── Networking ─────────────────────────────────────────────────
+curl
+wget
+networkmanager
+networkmanager-openvpn
+rclone
+ngrok-bin                       # [AUR]
+cloudflare-warp-bin             # [AUR]
+protonvpn-gui                   # [AUR]
+
+# ── System utilities ───────────────────────────────────────────
+jq
+xclip
+zip
+unzip
+unrar
+nvme-cli
+gamemode
+sysbench
+k6-bin                          # [AUR]
+appimagelauncher                # [AUR]
+caffeine-ng                     # [AUR] — keeps screen on
+preload                         # [AUR] — app preloader
+
+# ── Hardware / Input ───────────────────────────────────────────
+opentabletdriver                # [AUR] — Huion tablet
+piper                           # gaming mouse config
+fprintd
+
+# ── Screen recording ───────────────────────────────────────────
+kazam                           # [AUR]
+kooha                           # [AUR] (or use Flatpak: io.github.seadve.Kooha)
+
+# ── Wine / Windows compat ──────────────────────────────────────
+wine
+winetricks
+playonlinux                     # [AUR]
+
+# ── Android dev ────────────────────────────────────────────────
+android-tools                   # adb, fastboot
+
+# ── LaTeX ──────────────────────────────────────────────────────
+texlive-basic
+texlive-latexextra
+texlive-fontsrecommended
+texlive-xetex
+
+# ── Monitoring ─────────────────────────────────────────────────
+lm_sensors
+psensor                         # [AUR]
+
+# ── Misc dev tools ─────────────────────────────────────────────
+github-cli
+gitleaks
+clockify-desktop                # [AUR]
+wakatime                        # installed via editor extensions, not pacman
+lm-studio                       # [AUR] — local LLM runner
