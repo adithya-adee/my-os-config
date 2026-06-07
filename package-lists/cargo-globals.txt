@@ -1,13 +1,24 @@
 # Cargo global installs
 # Install: cargo install <package>
-# Note: packages marked [local] were installed from a local path — rebuild from source
+# For versioned installs: cargo install <package> --version <version>
 
-# ── Solana / Anchor ────────────────────────────────────────────
-avm                             # Anchor Version Manager (installs anchor-cli)
+# ── Solana / Anchor / Arcium ───────────────────────────────────
+# Arcium requires EXACT versions — do not upgrade without checking docs first
+# Docs: https://docs.arcium.com/developers/installation
+#
+# 1. Install avm (Anchor Version Manager)
+#    cargo install avm
+# 2. Install and pin Anchor 1.0.2
+#    avm install 1.0.2 && avm use 1.0.2
+# 3. Install Solana CLI 3.1.10
+#    sh -c "$(curl -sSfL https://release.anza.xyz/v3.1.10/install)"
+# 4. Install arcup (Arcium CLI) via install_arcium.sh in scripts/
+#
+avm                             # Anchor Version Manager — then: avm install 1.0.2 && avm use 1.0.2
 
 # ── ZK / Circuits ──────────────────────────────────────────────
-# circom is installed from local source at ~/.config/circom/circom
-# circom                        # [local] ZK circuit compiler — build from: https://github.com/iden3/circom
+# circom installed from local source — build from: https://github.com/iden3/circom
+# git clone https://github.com/iden3/circom && cargo install --path circom
 
 # ── Cargo dev tools ────────────────────────────────────────────
 cargo-nextest                   # Fast parallel test runner (replaces cargo test)
@@ -27,4 +38,3 @@ sqlx-cli                        # SQLx database migrations CLI
 # ── Learning / Misc ────────────────────────────────────────────
 rustlings                       # Interactive Rust exercises
 honggfuzz                       # Fuzzing (cargo-hfuzz / cargo-honggfuzz)
-# mini-redis                    # [toy] In-memory Redis clone for learning
