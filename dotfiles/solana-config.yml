@@ -1,0 +1,7 @@
+# Solana CLI config — keypair_path points to your local key, regenerate on new machine
+json_rpc_url: http://127.0.0.1:8899
+websocket_url: ''
+keypair_path: ~/.config/solana/id.json
+address_labels:
+  '11111111111111111111111111111111': System Program
+commitment: confirmed
