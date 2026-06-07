@@ -1,0 +1,30 @@
+# Cargo global installs
+# Install: cargo install <package>
+# Note: packages marked [local] were installed from a local path — rebuild from source
+
+# ── Solana / Anchor ────────────────────────────────────────────
+avm                             # Anchor Version Manager (installs anchor-cli)
+
+# ── ZK / Circuits ──────────────────────────────────────────────
+# circom is installed from local source at ~/.config/circom/circom
+# circom                        # [local] ZK circuit compiler — build from: https://github.com/iden3/circom
+
+# ── Cargo dev tools ────────────────────────────────────────────
+cargo-nextest                   # Fast parallel test runner (replaces cargo test)
+cargo-llvm-cov                  # Code coverage via LLVM instrumentation
+cargo-tarpaulin                 # Code coverage (alternative to llvm-cov)
+cargo-deny                      # Dependency audit (licenses, advisories, bans)
+cargo-deb                       # Build .deb packages from Cargo projects
+cargo-cache                     # Manage and clean ~/.cargo/registry cache
+
+# ── Build / WASM ───────────────────────────────────────────────
+wasm-pack                       # Build Rust → WebAssembly packages
+tree-sitter-cli                 # Build and test Tree-sitter grammars
+
+# ── Database ───────────────────────────────────────────────────
+sqlx-cli                        # SQLx database migrations CLI
+
+# ── Learning / Misc ────────────────────────────────────────────
+rustlings                       # Interactive Rust exercises
+honggfuzz                       # Fuzzing (cargo-hfuzz / cargo-honggfuzz)
+# mini-redis                    # [toy] In-memory Redis clone for learning
